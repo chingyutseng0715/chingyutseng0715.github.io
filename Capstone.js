@@ -25,13 +25,34 @@ function changeContent(contentType) {
             contentArea.innerHTML = "<p>This is courses content.</p>";
             break;
         case 'Programming':
-            contentArea.innerHTML = "<p>This is accommodation content.</p>";
+            contentArea.innerHTML = `
+            <div class="BI"><h2>Programming</h2></div>
+            <p>I started cultivating my skills when I was in Grade10 when I
+             first learned that I have a massive interest in programming. I studied Python, C, Javascript, HTML and several languages. Also using the knowledge that I learned to build an accounting book and website, and now 
+             I’m building this new website to review my skills but also dive into these areas deeper.</p>
+             <img src="Programming.png" alt="Parachute" width="550" height="350">
+            `;
             break;
         case 'Piano':
-            contentArea.innerHTML = "<p>f</p>";
+            contentArea.innerHTML = `
+            <div class="BI"><h2>Piano</h2></div>
+            <p>I started to learn piano when I was only 4. On my 9th birthday, my aunt, who is a musician and a 
+            professional opera singer (diva) introduced me to the pianist Franz Liszt. Who is now still one of my favourite composers. After 
+            learning piano for 11 years, when I was in 10th grade, I considered myself to have enough skills to challenge the most difficult piano pieces in the world. Among Franz Liszt's most well-known series, Paganini. 
+            I learned how to play La Campanella, La Chasse and Tremolo. It went out perfectly and did not face any huge obstacles when learning La Chasse and Tremolo. However, it took me over 10 months to learn because 
+            the right hand must repeatedly jump more than one octave for most of the part in a remarkably short time with no rests, performers need to practise continuously until they have the muscle memory. In order to meet the deadline before 
+            performing in front of my classmates, I extended my timeline from 1 hour to 2 hours per day, trying to increase the effectiveness. However, I found out that it didn’t work out as I supposed, I didn’t hit the balance between rest and work. I changed my schedule from 2 hours 
+            to 2 and a half hours, because I added a 30 minute rest after the first hour. Though it still ended up taking me 10 months to finish the song, I can feel the massive improvement after I make the changes.
+            </p>
+            `;
             break;
         case 'Basketball':
-            contentArea.innerHTML = "<p>g</p>";
+            contentArea.innerHTML = `
+            <div class="BI"><h2>Basketball</h2></div>
+            <p>I started playing basketball when I was 14, before playing basketball I was a very weak kid. I can’t even jump straight
+             up over 30 cm from the floor. Because my friends are encouraging and everyone is trying to dunk on the basket, everyone is competing 
+             to see who can jump higher everyday. I didn’t play much basketball as before, but now I can jump at a height of 305 centimetres, which is 5 centimetres away from the basket.</p>
+            `;
             break;
         case 'Why Project':
             contentArea.innerHTML = "<p>h</p>";
