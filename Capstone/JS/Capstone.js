@@ -20,10 +20,6 @@ function changeContent(contentType) {
             <img src="MEDIA/Photos/Parachute.jpg" alt="Parachute" width="550" height="350">
         `;
         break;
-            break;
-        case 'Hobbies and Personalities':
-            contentArea.innerHTML = "<p>This is courses content.</p>";
-            break;
         case 'Programming':
             contentArea.innerHTML = `
             <div class="BI"><h2>Programming</h2></div>
@@ -44,6 +40,7 @@ function changeContent(contentType) {
             performing in front of my classmates, I extended my timeline from 1 hour to 2 hours per day, trying to increase the effectiveness. However, I found out that it didn’t work out as I supposed, I didn’t hit the balance between rest and work. I changed my schedule from 2 hours 
             to 2 and a half hours, because I added a 30 minute rest after the first hour. Though it still ended up taking me 10 months to finish the song, I can feel the massive improvement after I make the changes.
             </p>
+            <a rel="nofollow noopener" href="https://www.instagram.com/tv/CfbQ6OEJoqV/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==/">Some of my pieces</a>
             `;
             break;
         case 'Basketball':
@@ -57,19 +54,27 @@ function changeContent(contentType) {
             `;
             break;
         case 'Why Project':
-            contentArea.innerHTML = `<p>
-            I chose to build this website as my capstone project because I am a person who does not like to communicate a lot with people. 
-            Spending most of my time in front of my computer makes me much more interested in how everything works on the computer. My skills 
-            of programming with HTML and JavaScript are not mature enough, which is also the reason why I chose this as my Capstone project. 
-            I still have lots of things to learn, and that’s why I am expected to learn things in post-secondary education.
-            </p>`;
-            break;
-        case 'Post-secondary':
-            contentArea.innerHTML = "<p>My post-secondary</p>";
+            contentArea.innerHTML = `
+            <div class="BI"><h2> What did I do? Why? What did I gain from it?</h2></div>
+            <p>This website is my final product of the capstone. I chose to design this website for two reasons. </p>
+            <ol>
+            <li>Building a website makes me feel comfortable and passionate when I am doing the work.</li>
+            <li>I decided to learn things related to computer science in university; in order to be 
+            a well-rounded programmer, I want to strengthen my front-end skills.</li>
+            </ol>
+            <div class="BI"><h2>How It went/ What it made me think of</h2></div>
+            <p>I confronted several problems, errors and obstacles in designing this website. I bought a book teaching 
+            HTML and CSS from Indigo, but later got stuck because of not knowing how to code with Javascript. I built 
+            several websites before, but I haven't used these skills for a long time. Building this website is just as 
+            exciting as when I first learned programming and posting the website.</p>
+
+
+            
+            `;
             break;
         case 'UBC':
             contentArea.innerHTML = `
-            <p>UofA (CS)</p>
+            <div class="BI"><h2>UofA (cs)</h2></div>
             <ol>
             <li>Applied through school official website</li>
             <li>Tuition fee: 33968.40 every year (Total of 135,873.60 for four years)</li>
@@ -77,7 +82,7 @@ function changeContent(contentType) {
             <li>Why: Applied it as a backup</li>
             </ol>
             <a href="MEDIA/Photos/UofA.pdf"><img src="MEDIA/Photos/UofA.jpeg" width="450" height="300"></a>
-            <p>UBC (CS)</p>
+            <div class="BI"><h2>UBC (cs)</h2></div>
             <ol>
             <li>Applied through school website (Login through EPBC)</li>
             <li>Tuition fee: approximately 43000 to 65000 depending on program. Tuition fees change annually.</li>
@@ -86,8 +91,6 @@ function changeContent(contentType) {
             <li>Housing: year round, winter/summer session</li>
             </ol>
             <a href="MEDIA/Photos/UBC.pdf"><img src="MEDIA/Photos/UBC.jpeg" width="500" height="300"></a>
-            
-
             `;
             break;
         case 'UofA':
