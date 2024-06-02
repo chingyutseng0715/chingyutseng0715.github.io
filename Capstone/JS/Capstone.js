@@ -94,7 +94,17 @@ function changeContent(contentType) {
             `;
             break;
         case 'UofA':
-            contentArea.innerHTML= "<p>UofA</p>";
+            contentArea.innerHTML= `
+            <div class="BI"><h2>UWaterloo (CS coop -> Mathematics coop)</h2></div>
+            <ol>
+            <li>Applied through OPAC</li>
+            <li>Tuition fee:49000 to 75000, includes tuitions and incidental fees</li>
+            <li>Applied at late November to early December (Early application)</li>
+            <li>Why: Waterloo is well-known for its Mathematics faculty and invention 
+            of the coop system. As a person who has a big interest in Math, UWaterloo is the rank 1 option in my mind. </li>
+            <li>Housing: year round, winter/summer session</li>
+            </ol>
+            `;
             break;
         case 'World':
             contentArea.innerHTML = "<p>World</p>";
