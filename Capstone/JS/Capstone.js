@@ -57,13 +57,38 @@ function changeContent(contentType) {
             `;
             break;
         case 'Why Project':
-            contentArea.innerHTML = "<p>h</p>";
+            contentArea.innerHTML = `<p>
+            I chose to build this website as my capstone project because I am a person who does not like to communicate a lot with people. 
+            Spending most of my time in front of my computer makes me much more interested in how everything works on the computer. My skills 
+            of programming with HTML and JavaScript are not mature enough, which is also the reason why I chose this as my Capstone project. 
+            I still have lots of things to learn, and that’s why I am expected to learn things in post-secondary education.
+            </p>`;
             break;
         case 'Post-secondary':
             contentArea.innerHTML = "<p>My post-secondary</p>";
             break;
         case 'UBC':
-            contentArea.innerHTML = "<p>UBC</p>";
+            contentArea.innerHTML = `
+            <p>UofA (CS)</p>
+            <ol>
+            <li>Applied through school official website</li>
+            <li>Tuition fee: 33968.40 every year (Total of 135,873.60 for four years)</li>
+            <li>Applied at late November to early December</li>
+            <li>Why: Applied it as a backup</li>
+            </ol>
+            <a href="MEDIA/Photos/UofA.pdf"><img src="MEDIA/Photos/UofA.jpeg" width="450" height="300"></a>
+            <p>UBC (CS)</p>
+            <ol>
+            <li>Applied through school website (Login through EPBC)</li>
+            <li>Tuition fee: approximately 43000 to 65000 depending on program. Tuition fees change annually.</li>
+            <li>Applied at late November to early December (Early application)</li>
+            <li>Why: located in Vancouver, milder weather for some physical issues, high reputation cafeteria, restaurants in campus, high quality post-secondary education</li>
+            <li>Housing: year round, winter/summer session</li>
+            </ol>
+            <a href="MEDIA/Photos/UBC.pdf"><img src="MEDIA/Photos/UBC.jpeg" width="500" height="300"></a>
+            
+
+            `;
             break;
         case 'UofA':
             contentArea.innerHTML= "<p>UofA</p>";
