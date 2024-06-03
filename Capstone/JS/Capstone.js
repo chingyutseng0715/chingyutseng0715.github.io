@@ -104,6 +104,7 @@ function changeContent(contentType) {
             of the coop system. As a person who has a big interest in Math, UWaterloo is the rank 1 option in my mind. </li>
             <li>Housing: year round, winter/summer session</li>
             </ol>
+            <a href="MEDIA/Photos/UWaterloo.pdf"><img src="MEDIA/Photos/UWaterloo.jpeg" width="500" height="300"></a>
             `;
             break;
         case 'World':
