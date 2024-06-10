@@ -9,6 +9,7 @@ body {
     width:960px;
     margin: 0 auto;
     
+    
 }
 .rightArrow {
     color:chocolate
@@ -75,6 +76,7 @@ body {
 .content-area {
     flex-grow: 2; 
     margin-left: 20px; 
+    line-height: 0.7cm;
 }
   
 .container {
@@ -94,4 +96,11 @@ body {
     vertical-align:top;
    
   }
+
+.cc {
+    display: inline-block;
+    margin: 20;
+    vertical-align:middle;
+
+}
 

@@ -108,10 +108,35 @@ function changeContent(contentType) {
             `;
             break;
         case 'World':
-            contentArea.innerHTML = "<p>World</p>";
+            contentArea.innerHTML = `
+            <div class="BI"><h2>Who I want to be in this world</h2></div>
+            <p>Though I’m taking computer related courses in my university, I don’t want to limit myself and have a life staying at the same place. I like my life to be colourful and meaningful, travelling and visiting different countries to experience different cultures and foods. I enjoy taking high risks, having a company and business of my own is also one of my dreams. I’m also a person who likes to give myself challenges, solving difficult maths and logic problems makes me excited. Being a freelance ai programmer while travelling will be one of my is one of the blueprint I want to finish of my life.</p>
+            <img src="MEDIA/Photos/218300.JPEG" alt="waterfall" width="582.5" height="400.54"/>
+            `;
             break;
         case 'Core':
-            contentArea.innerHTML = "<p>Core Competency reflections</p>";
+            contentArea.innerHTML = `
+            <div class="BI"><h2>Core competency reflections</h2></div>
+            <div class="cc">
+                    <img src="MEDIA/Photos/thinking.png" alt="waterfall" width="150" height="150"/>    
+            </div>
+            <div class="cc">
+                    <p>I can use observation, experience, and imagination to draw conclusions, make judgments, and ask new questions. I can describe my thinking and how it is changing.</p>
+            </div>    
+            <img src="MEDIA/Photos/PS.png" alt="waterfall" width="150" height="150"/>
+            <p>I can set priorities; implement, monitor, and adjust a plan; and assess the results. I can imagine and work toward change in myself and in the world</p>
+            <hr></hr>
+            <p>Before I attended computer studies 10, I already aroused the interest of programming. As a rookie 
+            in this field, I asked my dad to buy me a computer and several books teaching python. As I got into 
+            the course, I found out that the teacher is teaching a whole new programming language for me, C. I was 
+            the only student who had never heard about C either having any fundamental skills of it. In order to 
+            keep up my learning with others, I learn most of the things rapidly because of the planned learning and 
+            the learning experience of python. Spotting the similarities in different languages so that I can learn 
+            things more efficiently. There’s more and more problems I need to solve after each class, they require 
+            significant logical thinking to complete. For the purpose of finishing those problems on time, I adjusted 
+            my schedule spending almost 2-3 hours to finish it. I am aware that it is important to me and I should definitely invest lots of time in it. 
+
+            `;
             break;
 
         }
